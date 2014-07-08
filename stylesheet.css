@@ -1,0 +1,160 @@
+/*General Styles*/
+
+/*Clear margins*/
+body,
+p,
+h1,
+h2,
+h3,
+ul,
+li {
+	margin: 0px;
+}
+
+body{
+	background: #FFFFCC;
+	font-family: "Palatino Linotype", Palatino, sans-serif;
+}
+
+.break { 
+	width: 100%; 
+	border-top: 1px solid gray;
+	margin: 20px 0px 20px 0px;
+	/*clearfix between sections*/
+	clear: both;
+} 
+
+.content-div {
+	padding-left: 30px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+
+
+/*-------- Header Styling--------------*/
+header {
+	width: 100%;
+	box-sizing: border-box;
+	border: 16px solid;
+	border-top-color: darkgreen;
+	border-left-color: darkgreen;
+	border-bottom-color: forestgreen;
+	border-right-color: forestgreen;
+	margin-right: 6px;
+	padding: 15px;
+	background: lightgray;
+	position: fixed;
+	left: 0;
+	top: 0;
+	}
+
+h1 {
+	text-shadow: 2px 2px 2px gray;
+}
+
+header h1:first-letter,
+header .bigletter {
+	font-size: 150%;
+	}
+
+header ul li {
+	margin-top: 5px;
+	background-color: #006600;
+	display: inline-block;
+	list-style-type: none;
+	width: 20%;
+	border: 1px solid gray;
+	text-align: center;
+	color: #E6E6E6;
+	font-size: .9em;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px black;
+
+}
+
+header ul li a,
+header ul li a:visited {
+	text-decoration: none;
+	color: #E6E6E6;
+	display: block;
+	width: 100%;
+}
+
+header ul li a:hover {
+	background-color: dodgerblue;
+	transition: .5s;
+}
+
+/*------General Section Styling-------*/
+section h3 {
+	padding-left: 15px;
+}
+
+section ul li{
+	list-style-type: none;
+	background: url(circle_bullet.png) no-repeat;
+	background-size: .8em;
+	background-position: 10px 7px;
+
+}
+
+section p,
+section li {
+	padding-left: 30px;
+	line-height: 25px;
+}
+
+section ul {
+	margin-bottom: 20px;
+}
+
+
+/*------Education Section Styling------*/
+.education {
+	padding-top: 30px;
+}
+
+.education h3 {
+	padding-left: 15px;
+}
+
+.education p {
+	padding-left: 30px;
+}
+
+.colortab1 {
+	height: 144px;
+	width: 50px;
+	background: midnightblue;
+	float: left;
+	margin: 0px 10px 20px 5px;
+}
+
+
+
+.colortab2 {
+	height: 444px;
+	width: 50px;
+	background: steelblue;
+	float: left;
+	margin: 0px 10px 20px 5px;
+}
+.dates {
+	color: #555555;
+}
+
+.employment-content {
+	padding-left: 40px;
+}
+
+/*-----Other section------ */
+.colortab3 {
+	height: 150px;
+	width: 50px;
+	background: lightsteelblue;
+	float: left;
+	margin: 0px 10px 20px 5px;
+}
